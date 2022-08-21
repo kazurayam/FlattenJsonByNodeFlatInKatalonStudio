@@ -16,7 +16,7 @@ import groovy.json.JsonSlurper
 /**
  * This test case script does the following:
  * 
- * 1. make a web service request to https://ghibliapi.herokuapp.com/films to create a new user
+ * 1. make a web service request to https://ghibliapi.herokuapp.com/films for a JSON that contains a list of films by Studio Ghibli
  * 2. extract a JSON string from the web response from the URL
  * 3. save the JSON into a local file
  * 4. execute a OS command to run "node" with a script coded in JavaScript, and the path to the JSON file
