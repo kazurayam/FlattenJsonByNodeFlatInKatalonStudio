@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Confluence blog posts</name>
+   <name>GET Films of Studio Ghibli</name>
    <tag></tag>
-   <elementGuidId>776ca3d7-82c7-4573-b359-913d434aecfc</elementGuidId>
+   <elementGuidId>60629b1f-8a77-4299-9d10-d6a51eb58e0c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://localhost:8090/example_Confluence_blog_posts.json</restUrl>
+   <restUrl>https://ghibliapi.herokuapp.com/films</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
