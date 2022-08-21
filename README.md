@@ -41,8 +41,7 @@ He wants to automate the following process in Katalon Studio.
 ## Solution
 
 As far as I see, Java/Groovy language is not very good at JSON processing.
-All of us know *JSON* stands for "JavaScript Object Notation".
-Therefore JSON is best supported by JavaScript language.
+As we all know, *JSON* stands for "JavaScript Object Notation". JSON is best supported by JavaScript language including Node.js.
 
 I found a package for Node.js named **flat**, which provides a way to *flatten* a JSON.
 
