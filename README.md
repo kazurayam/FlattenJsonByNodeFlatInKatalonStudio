@@ -1,4 +1,4 @@
-# [Katalon Studio] Flattening JSON as Web Service Response by Node + Flat through java.lang.ProcessBuilder
+# [Katalon Studio] Flattening JSON by Node via command line
 
 This is a small Katalon Studio project for demonstration purpose. You can download the zip from the [Releases](https://github.com/kazurayam/FlattenJsonByNodeFlatInKatalonStudio/releases/) page, unzip it, open it with your local Katalon Studio. This project was developed using Katalon Studio v8.3.0 but is not version-dependent. It should work on any versions.
 
