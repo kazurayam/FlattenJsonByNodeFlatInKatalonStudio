@@ -25,7 +25,6 @@ ResponseObject response = WS.sendRequestAndVerify(findTestObject("Object Reposit
 // write Json into a file
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 Path tmpDir = projectDir.resolve("tmp")
+Files.createDirectories(tmpDir)
 Path jsonFile = Files.createTempFile(tmpDir, "response_", ".json")
 jsonFile.toFile() << response.getResponseText()
-
-// invoke Node 
