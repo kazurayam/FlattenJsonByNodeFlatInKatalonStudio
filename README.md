@@ -49,12 +49,7 @@ I found a package for Node.js named **flat**, which provides a way to *flatten* 
 
 How to utilize *flat* in Katalon Studio?
 
-I will develop a test case (Groovy script in Katalon Studio) that does the following:
-
-1. The TC makes a GET request to a URL, obtain a JSON as response
-2. The TC saves the JSON text into a local file
-3. The TC execute a subprocess that runs Node in the OS commandline.
-4.
+I will develop a test case (Groovy script in Katalon Studio) that does everything needed.
 
 ### Prerequisites
 
